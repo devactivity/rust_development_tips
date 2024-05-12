@@ -1,0 +1,5 @@
+# Example .cargo/config.toml
+# The index needs to point to the host where your Kellnr instance runs
+# The token is the authentication token for the user configured in Kellnr
+[registries]
+kellnr = { index = "sparse+http://kellnr.dev.loc:8000/api/v1/crates/", token = "Zy9HhJ02RJmg0GCrgLfaCVfU6IwDfhXD" }
